@@ -20,6 +20,7 @@ This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `revit-api-code` skill: C# external commands, macros, .addin manifests, and pyRevit scripts
 - `manage-sheets` skill: batch sheet creation, view placement, view template application
 - `manipulate-elements` skill: move, rotate, copy, change type of Revit elements
+- `export-dynamo-file` skill: generate a complete `.dyn` graph file openable directly in Dynamo — no copy-pasting required
 - `bim-agent`: specialist Claude agent with deep Revit/Dynamo/BIM knowledge, activates automatically
 - Default to IronPython 2.7 for maximum Dynamo 2.x compatibility
 - Full unit conversion coverage (feet ↔ mm/m)

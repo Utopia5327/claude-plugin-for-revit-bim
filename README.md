@@ -21,8 +21,9 @@ Once installed, Claude becomes a BIM-aware assistant that can:
 | `revit-api-code` | *"Write a pyRevit script that isolates rooms by department in the active view"* |
 | `manage-sheets` | *"Create sheets A-001 through A-020 using my title block, from this Excel list"* |
 | `manipulate-elements` | *"Move all furniture on Level 2 up by 150mm to account for a raised floor"* |
+| `export-dynamo-file` | *"Give me a .dyn file I can open directly in Dynamo — no copy-pasting"* |
 
-All scripts produced are ready to paste into a Dynamo Python Script node and run.
+Scripts can be delivered as ready-to-paste code **or** as a `.dyn` file you open directly in Dynamo.
 
 ---
 
