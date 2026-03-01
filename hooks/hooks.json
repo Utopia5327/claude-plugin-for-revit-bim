@@ -6,7 +6,27 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '[revit-bim] File saved.'"
+            "command": "echo '[revit-bim] File saved: '$(date '+%Y-%m-%d %H:%M:%S')"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[revit-bim] Script ready. Remember to test on a DETACHED copy of the model before running on your live project.'"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[revit-bim] Running command...'"
           }
         ]
       }
