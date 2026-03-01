@@ -1,0 +1,30 @@
+{
+  "name": "revit-bim",
+  "owner": {
+    "name": "Manas Bhatia",
+    "email": "manasbhatia.design@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Autodesk Revit and BIM workflows — Dynamo scripting, model auditing, clash detection, IFC export, and full BIM automation."
+  },
+  "plugins": [
+    {
+      "name": "revit-bim",
+      "source": {
+        "source": "github",
+        "repo": "Utopia5327/revit-bim"
+      },
+      "description": "Connect Claude to Autodesk Revit. Generate Dynamo scripts, audit models, detect clashes, manage parameters, create schedules, export IFC, and automate BIM workflows from plain language.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Manas Bhatia",
+        "email": "manasbhatia.design@gmail.com"
+      },
+      "homepage": "https://github.com/Utopia5327/revit-bim#readme",
+      "repository": "https://github.com/Utopia5327/revit-bim",
+      "license": "MIT",
+      "keywords": ["revit", "bim", "dynamo", "autodesk", "architecture", "ifc", "aec"],
+      "category": "productivity"
+    }
+  ]
+}

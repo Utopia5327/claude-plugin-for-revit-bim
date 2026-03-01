@@ -1,0 +1,27 @@
+{
+  "name": "revit-bim",
+  "version": "1.0.0",
+  "description": "Connect Claude to Autodesk Revit and Dynamo. Generate ready-to-run Dynamo Python scripts, query model data, detect clashes, audit model health, manage parameters, create schedules, export IFC, and automate full BIM workflows — all from plain language.",
+  "author": {
+    "name": "Manas Bhatia",
+    "email": "manasbhatia.design@gmail.com",
+    "url": "https://github.com/Utopia5327"
+  },
+  "homepage": "https://github.com/Utopia5327/revit-bim#readme",
+  "repository": "https://github.com/Utopia5327/revit-bim",
+  "license": "MIT",
+  "keywords": [
+    "revit",
+    "bim",
+    "dynamo",
+    "autodesk",
+    "architecture",
+    "ifc",
+    "parametric",
+    "aec",
+    "construction",
+    "revit-api",
+    "pyrevit",
+    "clash-detection"
+  ]
+}
