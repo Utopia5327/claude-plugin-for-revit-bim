@@ -1,4 +1,4 @@
-# revit-bim — Claude Code Plugin for Revit & BIM
+# claude-plugin-for-revit-bim — Claude Code Plugin for Revit & BIM
 
 Give Claude deep knowledge of Autodesk Revit, Dynamo, BIM standards, and Autodesk Construction Cloud — so you can generate ready-to-run Dynamo Python scripts, audit models, manage parameters, detect clashes, export IFC, and automate full BIM workflows, all from plain language.
 
